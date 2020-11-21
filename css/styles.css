@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    margin: 9px 29px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+nav a:hover {
+    opacity: .7;
+    text-decoration: underline;
+}
+
+nav img {
+    margin-top: 6px;
+    border-radius: 50%;
+    margin-left: 1px;
+}
+
+.no-opacity:hover {
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 96px;
+}
+
+#searchbar {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 45.5px;
+    width: 42.8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    margin-top: 27px;
+}
+
+#searchbar:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+#searchbar > svg {
+    opacity: 0.4;
+}
+
+#searchbar #search {
+    height: 100%;
+    flex: 1;
+    margin: 8px;
+    padding: 15px 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#buttons {
+   margin-top: 18px;
+}
+
+#buttons button {
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 15.5px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#buttons button:hover {
+    border-color:  rgba(32,33,36,.16);
+}
+
+#lang {
+    display: flex;
+    margin-top: 19px;
+    font-size: 13px;
+}
+
+#lang p {
+    color: #111;
+}
+
+#lang a {
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+#lang a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 15px;
+    color: #777;
+}
+
+footer > div {
+    padding: 12px 30px;
+    background-color: #EFEFEF;
+    border-top: 1px solid #DDD;
+}
+
+footer #fbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+
+footer #fbar a {
+    color: #777;
+    text-decoration: none;
+    padding-left: 22px;
+    font-size: 14px;
+}
+
+footer #fbar a:hover {
+    text-decoration: underline;
+}
